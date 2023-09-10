@@ -70,7 +70,7 @@ export default function Home() {
               <div>
                 <p>Step Three</p>
                 <H3 className="p-0 ">Make Calls</H3>
-                <p>Use CleverCore AI's interface to manage your calls</p>
+                <p>Use CleverCore AI&apos; interface to manage your calls</p>
               </div>
             </div>
           </div>

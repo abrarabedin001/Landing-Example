@@ -30,7 +30,7 @@ export default function GettingStartedWithCleverCore() {
             </div>
           </div>
         </div>
-        {/* <div className=" w-full flex flex-row">
+        <div className=" w-full flex flex-row">
           <div className="w-[50%] text-right p-8 grid items-center justify-center  ">
             <div>
               <p className="font-bold">Step Two</p>
@@ -47,7 +47,7 @@ export default function GettingStartedWithCleverCore() {
               alt="Secure Login"
             ></Image>
           </div>
-        </div> */}
+        </div>
         <div className=" w-full flex flex-row">
           {' '}
           <div className="w-[50%] p-8">
@@ -67,7 +67,7 @@ export default function GettingStartedWithCleverCore() {
             </div>
           </div>
         </div>
-        {/* <div className=" w-full flex flex-row">
+        <div className=" w-full flex flex-row">
           <div className="w-[50%] text-right p-8 grid items-center justify-center  ">
             <div>
               <p className="font-bold">Step Four</p>
@@ -84,7 +84,7 @@ export default function GettingStartedWithCleverCore() {
               alt="Secure Login"
             ></Image>
           </div>
-        </div> */}
+        </div>
       </div>
     </div>
   );

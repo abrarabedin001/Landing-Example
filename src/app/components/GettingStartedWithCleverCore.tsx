@@ -22,7 +22,7 @@ export default function GettingStartedWithCleverCore() {
               alt="Secure Login"
             ></Image>
           </div>
-          <div className="w-[50%] text-left p-8 grid items-center pl-16 ">
+          <div className="w-[50%] text-left p-8 grid items-center  ">
             <div>
               <p>Step One</p>
               <H3 className="p-0 ">Sign Up</H3>

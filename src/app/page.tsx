@@ -7,6 +7,9 @@ import WhyChoseClever from './components/WhyChoseClever';
 import H2 from './components/H2';
 import GettingStartedWithCleverCore from './components/GettingStartedWithCleverCore';
 import Pricing from './components/Pricing';
+import Testimonial from './components/Testimonial';
+import PrimaryButton from './components/PrimaryButton';
+import { Input } from 'postcss';
 
 export default function Home() {
   return (
@@ -16,87 +19,53 @@ export default function Home() {
       <WhyChoseClever />
       <GettingStartedWithCleverCore />
       <Pricing />
-      <div className="text-center flex flex-col justify-center mt-36">
-        <H2 className=" w-full text-center mt-36">
-          What Our Customers Are Saying
-        </H2>
-        <div className="text-left grid-cols-3 gap-5 mt-36 space-x-10">
-          <div className="w-[410px] h-[566px] px-[72px] py-[74px] bg-gradient-to-b from-violet-200 to-violet-200/40 rounded-[10px] shadow flex-col justify-start items-center gap-[29px] inline-flex">
-            <div className="w-[114px] h-[114px] bg-violet-100 bg-opacity-30 rounded-full">
-              <Image
-                src={'/Testimonials/Ellipse 1.png'}
-                alt="testimonials"
-                width={114}
-                height={114}
-              ></Image>
+      <Testimonial />
+      <div className="w-full">
+        <div className="flex flex-row p-10 justify-between w-full">
+          <div className="w-[149px] h-[15.53px] text-zinc-800 text-base font-medium leading-normal">
+            © 2020 Wirefigma
+          </div>
+          <div className="flex flex-col justify-center">
+            <div className=" px-5 py-[13px] bg-white rounded-[5px] justify-center items-start gap-5 inline-flex">
+              <div className="text-black text-base font-medium leading-normal">
+                Privacy
+              </div>
+              <div className="text-black text-base font-medium leading-normal">
+                Terms of Service
+              </div>
+              <div className="text-black text-base font-medium leading-normal">
+                Faq
+              </div>
             </div>
-            <div className="h-[196px] flex-col justify-start items-center gap-10 flex">
-              <div className="self-stretch text-black text-lg font-medium leading-7">
-                “Reprehenderit esse labore id veniam ut veniam non ex
-                adipisicing amet ullamco dolor proident. Exercitation velit ea
-                incididunt sit qui do ipsum fugiat laboris minim nostrud dolor
-                qui.”
-              </div>
-              <div className=" flex-col justify-start items-start flex w-full">
-                <div className=" text-black text-[25px] font-bold float-left">
-                  John Doe
-                </div>
-                <div className=" text-black text-lg font-medium leading-7">
-                  UX Designer
-                </div>
-              </div>
+            <div className=" pb-7 justify-start items-center gap-2.5 inline-flex">
+              <input
+                type="email"
+                placeholder=" Type your email"
+                className=" text-zinc-800 text-lg font-medium leading-7 rounded border border-indigo-400 p-3"
+              />
+
+              <PrimaryButton className="text-white text-lg font-bold leading-7 p-3 bg-indigo-400">
+                Sign Up
+              </PrimaryButton>
             </div>
           </div>
-          <div className="w-[410px] h-[566px] px-[72px] py-[74px] bg-gradient-to-b from-violet-200 to-violet-200/40 rounded-[10px] shadow flex-col justify-start items-center gap-[29px] inline-flex">
-            <div className="w-[114px] h-[114px] bg-violet-100 bg-opacity-30 rounded-full">
-              <Image
-                src={'/Testimonials/Ellipse 2.png'}
-                alt="testimonials"
-                width={114}
-                height={114}
-              ></Image>
+
+          <div className=" h-7 justify-start items-center gap-5 inline-flex">
+            <div className="flex-col justify-start items-center gap-2.5 inline-flex">
+              <div className="text-indigo-400 text-2xl font-normal"></div>
             </div>
-            <div className="h-[196px] flex-col justify-start items-center gap-10 flex">
-              <div className="self-stretch text-black text-lg font-medium leading-7">
-                “Reprehenderit esse labore id veniam ut veniam non ex
-                adipisicing amet ullamco dolor proident. Exercitation velit ea
-                incididunt sit qui do ipsum fugiat laboris minim nostrud dolor
-                qui.”
-              </div>
-              <div className=" flex-col justify-start items-start flex w-full">
-                <div className=" text-black text-[25px] font-bold float-left">
-                  John Doe
-                </div>
-                <div className=" text-black text-lg font-medium leading-7">
-                  UX Designer
-                </div>
+            <div className="flex-col justify-start items-center gap-2.5 inline-flex">
+              <div className="text-indigo-400 text-2xl font-normal">
+                twitter
               </div>
             </div>
-          </div>
-          <div className="w-[410px] h-[566px] px-[72px] py-[74px] bg-gradient-to-b from-violet-200 to-violet-200/40 rounded-[10px] shadow flex-col justify-start items-center gap-[29px] inline-flex">
-            <div className="w-[114px] h-[114px] bg-violet-100 bg-opacity-30 rounded-full">
-              <Image
-                src={'/Testimonials/Ellipse 3.png'}
-                alt="testimonials"
-                width={114}
-                height={114}
-              ></Image>
+            <div className="flex-col justify-start items-center gap-2.5 inline-flex">
+              <div className="text-indigo-400 text-2xl font-normal">
+                facebook
+              </div>
             </div>
-            <div className="h-[196px] flex-col justify-start items-center gap-10 flex">
-              <div className="self-stretch text-black text-lg font-medium leading-7">
-                “Reprehenderit esse labore id veniam ut veniam non ex
-                adipisicing amet ullamco dolor proident. Exercitation velit ea
-                incididunt sit qui do ipsum fugiat laboris minim nostrud dolor
-                qui.”
-              </div>
-              <div className=" flex-col justify-start items-start flex w-full">
-                <div className=" text-black text-[25px] font-bold float-left">
-                  John Doe
-                </div>
-                <div className=" text-black text-lg font-medium leading-7">
-                  UX Designer
-                </div>
-              </div>
+            <div className="flex-col justify-start items-center gap-2.5 inline-flex">
+              <div className="text-indigo-400 text-2xl font-normal"></div>
             </div>
           </div>
         </div>

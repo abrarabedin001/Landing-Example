@@ -8,7 +8,7 @@ export default function H2({
   className?: string;
 }) {
   return (
-    <div className="w-[653px] text-center text-black text-[39px] font-bold leading-[46.80px]">
+    <div className=" text-center text-black text-[39px] font-bold leading-[46.80px]">
       {children}
     </div>
   );

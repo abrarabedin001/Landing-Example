@@ -5,7 +5,7 @@ export default function Pricing() {
   return (
     <div className="mt-[50px]">
       <H2>Affordable Packages for Every Size of Team</H2>
-      <div className="grid  grid-cols-2 gap-5 mt-[50px]">
+      <div className="flex flex-row justify-center space-x-10 mt-[50px]">
         <div className="w-80 h-[472px] relative bg-gradient-to-b from-red-400 to-red-100 rounded-[10px] shadow">
           <div className="h-[145px] left-[59.61px] top-[40px] absolute flex-col justify-start items-start gap-[30px] inline-flex">
             <div className="self-stretch h-[145px] flex-col justify-start items-start gap-[60px] flex">

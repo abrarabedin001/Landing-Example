@@ -6,6 +6,7 @@ import H3 from './components/H3';
 import WhyChoseClever from './components/WhyChoseClever';
 import H2 from './components/H2';
 import GettingStartedWithCleverCore from './components/GettingStartedWithCleverCore';
+import Pricing from './components/Pricing';
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <HeroSection />
       <WhyChoseClever />
       <GettingStartedWithCleverCore />
+      <Pricing />
     </main>
   );
 }

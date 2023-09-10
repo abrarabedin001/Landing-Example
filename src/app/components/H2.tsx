@@ -8,8 +8,8 @@ export default function H2({
   className?: string;
 }) {
   return (
-    <h2 className={'text-4xl font-bold pb-8 pr-5 leading-[4rem] ' + className}>
+    <div className="w-[653px] text-center text-black text-[39px] font-bold leading-[46.80px]">
       {children}
-    </h2>
+    </div>
   );
 }

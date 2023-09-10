@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function H3({
+export default function H2({
   children,
   className,
 }: {
@@ -8,7 +8,7 @@ export default function H3({
   className?: string;
 }) {
   return (
-    <h2 className={'text-3xl font-bold  leading-[4rem] ' + className}>
+    <h2 className={'text-4xl font-bold pb-8 pr-5 leading-[4rem] ' + className}>
       {children}
     </h2>
   );

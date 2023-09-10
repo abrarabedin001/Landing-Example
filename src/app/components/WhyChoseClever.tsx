@@ -32,7 +32,7 @@ export default function WhyChoseClever() {
               className="w-[80px] h-[80px] my-5"
             />
             <div className="text-left pb-5 w-[300px]">
-              <H3 className="leading-[2rem] pb-8 pr-5">
+              <H3 style={{ lineHeight: '2rem' }} className=" pb-8 pr-5">
                 Voice-to-Text Transcription
               </H3>
               <P>Never Miss a Detail</P>
@@ -49,7 +49,7 @@ export default function WhyChoseClever() {
               className="w-[80px] h-[80px] my-5"
             />
             <div className="text-left pb-5 w-[400px]">
-              <H3 className="leading-[2rem] pb-8 pr-5">
+              <H3 style={{ lineHeight: '2rem' }} className=" pb-8 pr-5">
                 Actionable Insights and Summaries
               </H3>
               <P>AI-Powered Data for Every Customer Interaction</P>

@@ -40,11 +40,11 @@ export default function GettingStartedWithCleverCore() {
           </div>
           <div className="w-[50%] p-8">
             <Image
-              src={'/CTA/Object/Import_data.png'}
+              src={'/CTA/Object/Other 09.png'}
               width={224}
               height={338}
               className="max-w-[224px] max-h-[338px] float-left"
-              alt="Secure Login"
+              alt="Import Data"
             ></Image>
           </div>
         </div>
@@ -56,7 +56,7 @@ export default function GettingStartedWithCleverCore() {
               width={224}
               height={338}
               className="max-w-[224px] max-h-[338px] float-right"
-              alt="Secure Login"
+              alt="Make Calls"
             ></Image>
           </div>
           <div className="w-[50%] text-left p-8 grid items-center  ">
@@ -77,11 +77,11 @@ export default function GettingStartedWithCleverCore() {
           </div>
           <div className="w-[50%] p-8">
             <Image
-              src={'/CTA/Object/Analyze_act.png'}
+              src={'/CTA/Object/Other 11.png'}
               width={224}
               height={338}
               className="max-w-[224px] max-h-[338px] float-left"
-              alt="Secure Login"
+              alt="Analyze & Act"
             ></Image>
           </div>
         </div>
